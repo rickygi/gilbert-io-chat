@@ -9,7 +9,9 @@
   "scripts": {
     "start": "yarn client:start",
     "build": "yarn client:build",
+    "test": "yarn client:test",
     "client:start": "cd client && yarn start",
-    "client:build": "cd client && yarn build"
+    "client:build": "cd client && yarn build",
+    "client:test": "cd client && yarn test"
   }
 }
