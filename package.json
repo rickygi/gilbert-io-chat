@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "workspaces": [
-    "client"
+    "client",
+    "functions"
   ],
   "scripts": {
     "start": "yarn client:start",
