@@ -1,5 +1,14 @@
 {
   "name": "gilbert-io-chat",
   "version": "0.1.0",
-  "private": true
+  "private": true,
+  "workspaces": [
+    "client"
+  ],
+  "scripts": {
+    "start": "yarn client:start",
+    "build": "yarn client:build",
+    "client:start": "cd client && yarn start",
+    "client:build": "cd client && yarn build"
+  }
 }
