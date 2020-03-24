@@ -4,6 +4,6 @@ import App from './App';
 
 test('renders firebase chat heading', () => {
   const { getByText } = render(<App />);
-  const headingElement = getByText(/firebase chat/i);
+  const headingElement = getByText(/Chat/i);
   expect(headingElement).toBeInTheDocument();
 });

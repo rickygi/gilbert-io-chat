@@ -1,3 +1,5 @@
 ## gilbert-io-chat
 
-Real-time chat with Firebase.
+Realtime React with Firebase.
+
+https://courses.reacttraining.com/p/realtime-react-with-firebase

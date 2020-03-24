@@ -1,0 +1,41 @@
+/* elements */
+
+.btn {
+  border: 0;
+  border-radius: 4px;
+  padding: 0;
+  background: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e2e8f0;
+}
+
+.btn-dark:hover {
+  background-color: #434190;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* utilites */
+
+.gray-100 {
+  fill: #f7fafc;
+}
+
+.gray-900 {
+  fill: #1a202c;
+}
+
+.stroke-gray-900 line,
+.stroke-gray-900 polyline {
+  stroke: #1a202c !important;
+}
+
+.z-10 {
+  z-index: 10;
+}

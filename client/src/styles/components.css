@@ -1,0 +1,221 @@
+/* App */
+
+.App.no-auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1a202c;
+  text-align: center;
+}
+
+/* Channel */
+
+.Channel {
+  flex: 1;
+  display: flex;
+}
+
+.ChannelMain {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ChannelInfo */
+
+.ChannelInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  width: 100%;
+}
+
+/* .Topic {} */
+
+.TopicInput {
+  border: 1px solid transparent;
+  border-radius: 2px;
+  background: inherit;
+  font: inherit;
+}
+
+.TopicInput:hover {
+  border-color: #e2e8f0;
+}
+
+.ChannelName {
+  font-weight: bold;
+}
+
+/* ChannelNav */
+
+.ChannelNav {
+  width: 100%;
+}
+
+.ChannelNav a {
+  display: block;
+  padding: 8px 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.ChannelNav a.active {
+  background: #4c51bf;
+}
+
+/* Loading */
+
+/* .Loading {} */
+
+/* Members */
+
+.Members {
+  padding: 16px;
+}
+
+.Member {
+  display: flex;
+  align-items: center;
+}
+
+.MemberStatus {
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 0.66em;
+  height: 0.66em;
+}
+
+.MemberStatus.online {
+  background: #48bb78;
+}
+
+.MemberStatus.offline {
+  background: #a0aec0;
+}
+
+/* MessageInputBox */
+
+.MessageInputBox {
+  padding: 0px 16px 16px 16px;
+  width: 100%;
+}
+
+.MessageInput {
+  border: #a0aec0 solid 2px;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+  font: inherit;
+  outline: none;
+}
+
+.MessageInput:focus {
+  border-color: #a0aec0;
+}
+
+/* Messages */
+
+.Messages {
+  flex: 1;
+  padding: 8px 16px 8px 16px;
+  overflow: auto;
+}
+
+.EndOfMessages {
+  text-align: center;
+}
+
+.Day {
+  display: flex;
+  align-items: center;
+}
+
+.DayLine {
+  flex: 1;
+  height: 1px;
+  background: #e2e8f0;
+}
+
+.DayText {
+  padding: 8px;
+  font-weight: bold;
+}
+
+.Message {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 8px 0;
+}
+
+.Message.with-avatar {
+  margin-top: 16px;
+}
+
+.Message.no-avatar {
+  margin-left: 40px;
+}
+
+.Avatar {
+  border-radius: 4px;
+  margin-right: 8px;
+  width: 32px;
+  height: 32px;
+  background-position: center center;
+  background-size: cover;
+  background-color: #f7fafc;
+}
+
+/* .MessageInfo {} */
+
+.UserName {
+  font-weight: bold;
+}
+
+.TimeStamp {
+  color: #4a5568;
+}
+
+/* .MessageContent {} */
+
+/* SignIn */
+
+/* .SignIn {} */
+
+.SignIn .btn {
+  padding: 16px;
+  background: #4c51bf;
+  color: #f7fafc;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.SignIn .btn:hover {
+  background: #5a67d8;
+}
+
+/* User */
+
+.User {
+  display: flex;
+  align-items: center;
+}
+
+.UserImage {
+  border-radius: 50%;
+  margin-right: 8px;
+  height: 32px;
+}
+
+.SignOut.btn {
+  background: transparent;
+  color: #ffffff;
+  font-size: inherit;
+  text-decoration: underline;
+}
+
+.SignOut.btn:hover {
+  background: transparent;
+  color: #a3bffa;
+}
